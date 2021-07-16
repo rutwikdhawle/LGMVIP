@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <!-- BOOTSRAP FILE -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Web_page</title>
+</head>
+<style>
+    h1 {
+        font-size: 30px;
+        position: relative;
+        margin-bottom: 80px;
+    }
+
+    h1::after {
+        content: '';
+        width: 150px;
+        height: 3px;
+        background: linear-gradient(to right, #f44336, #9f4db5);
+        position: absolute;
+        bottom: -20px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .main_sk h1 {
+        /* border: 1px solid red; */
+        text-align: center;
+    }
+</style>
+
+<body>
+    <div class="container-fluid">
+        <!-- Section_1 -->
+        <div class="header row">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <!-- section_2 SKILL BAR-->
+        <div class="main_section row">
+            <div class="col-12 col-md-6 main_col_1 mcol">
+                <img src="/ritwik.jpg" height="250" alt="img" srcset="">
+            </div>
+            <div class="col-12 col-md-6 main_col_2 mcol">
+                <div>
+                    <h2>Hi,I'm Rutwik Dhawle</h2>
+                    <p>Frontend web developer</p>
+                    <p>I have a good knowledge of Html,Css,javascript and Bootstrap and also enhancing my skill on
+                        backend languages </p>
+                    <button><span>Contact </span> <i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row skill">
+            <h1 class="main_sk">My skill</h1>
+        </div>
+        <div class="main_after row main_sk">
+            <div class="skill-bars">
+                <div class="bar">
+                    <div class="info">
+                        <span>HTML</span>
+                    </div>
+                    <div class="progress-line html">
+                        <span></span>
+                    </div>
+                </div>
+
+                <div class="bar">
+                    <div class="info">
+                        <span>CSS</span>
+                    </div>
+                    <div class="progress-line css">
+                        <span></span>
+                    </div>
+                </div>
+
+                <div class="bar">
+                    <div class="info">
+                        <span>Javascript</span>
+                    </div>
+                    <div class="progress-line jquery">
+                        <span></span>
+                    </div>
+                </div>
+
+                <div class="bar">
+                    <div class="info">
+                        <span>Php</span>
+                    </div>
+                    <div class="progress-line python">
+                        <span></span>
+                    </div>
+                </div>
+
+                <div class="bar">
+                    <div class="info">
+                        <span>Bootstrap</span>
+                    </div>
+                    <div class="progress-line mysql">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- section_3   Testimonial-->
+        <div class="row project">
+            <div class="hero">
+                <h1>
+                    Project
+                </h1>
+                <div class="project-box">
+                    <div id="slide">
+                        <div class="card">
+                            <div class="profile">
+                                <img src="/simple.jpg" alt="img" height="80" width="80">
+                                <div>
+                                    <h3>Project_1</h3>
+                                    <p>Link</p>
+                                </div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit.
+                                Libero illo quasi facere necessitatibus
+                                illum natus pariatur ipsam nulla quod animi!</p>
+                        </div>
+                        <!--  -->
+                        <div class="card">
+                            <div class="profile">
+                                <img src="/bg1.jpg" alt="img" height="80" width="80">
+                                <div>
+                                    <h3>Project_2</h3>
+                                    <p>Link</p>
+                                </div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit.
+                                Libero illo quasi facere necessitatibus
+                                illum natus pariatur ipsam nulla quod animi!</p>
+                        </div>
+                        <!--  -->
+                        <!--  -->
+                        <div class="card">
+                            <div class="profile">
+                                <img src="/img.jpeg" alt="img" height="80" width="80">
+                                <div>
+                                    <h3>Project_3</h3>
+                                    <p>Link</p>
+                                </div>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet
+                                consectetur adipisicing elit.
+                                Libero illo quasi facere necessitatibus
+                                illum natus pariatur ipsam nulla quod animi!</p>
+                        </div>
+                        <!--  -->
+                    </div>
+                    <div class="sidebar">
+                        <i class="fa fa-arrow-up" id="upArrow" aria-hidden="true"></i>
+                        <i class="fa fa-arrow-down" id="downArrow" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- section_4 FOOTER -->
+        <div class="footer row">
+            <div class="col-md-3 col-12">
+                <h4>Phone No</h4>
+                <p>999_888_999</p>
+                <p>898_888_777</p>
+            </div>
+            <div class="col-md-3 col-12">
+                <h4>My Project</h4>
+                <div>
+                    <li><a href="#">Pro_1</a></li>
+                    <li><a href="#">Pro_2</a></li>
+                    <li><a href="#">Pro_3</a></li>
+                </div>
+            </div>
+            <div class="col-md-3 col-12">
+                <h4>E-mail</h4>
+                <h6>dummy1@gmail.com</h6>
+                <h6>dummy2@gmail.com</h6>
+                <h6>dummy3@gmail.com</h6>
+            </div>
+            <div class="col-md-3 col-12">
+                <i class="fa fa-instagram" aria-hidden="true"></i>
+                <i class="fa fa-github-square" aria-hidden="true"></i>
+                <i class="fa fa-facebook-square" aria-hidden="true"></i>
+            </div>
+        </div>
+
+    </div>
+    <!-- <a onclick="myfunction()">D</a> -->
+    <script>
+        function myfunction() {
+            var x = document.getElementsByTagName("body");
+            var i;
+            for (i = 0; i <= x.length; i++) {
+                x[i].style.backgroundColor = "rgb(12, 12, 34)";
+                x[i].style.color = "white";
+            }
+        }
+
+        var slide = document.getElementById('slide');
+        var upArrow = document.getElementById('upArrow');
+        var downArrow = document.getElementById('downArrow');
+
+        let x = 0;
+        upArrow.onclick = function () {
+            if (x > -600) {
+                x = x - 300;
+                slide.style.top = x + "px";
+            }
+            if (x == -600) {
+                upArrow.style.color = "grey";
+
+            }
+            else {
+                upArrow.style.color = "white";
+                downArrow.style.color = "white";
+            }
+
+        }
+        downArrow.onclick = function () {
+            if (x < 0) {
+                x = x + 300;
+                slide.style.top = x + "px";
+
+            }
+            if (x == 0) {
+                downArrow.style.color = "grey";
+                upArrow.style.color = "white";
+            }
+            else {
+                upArrow.style.color = "white";
+
+            }
+
+        }
+
+    </script>
+</body>
+
+</html>
